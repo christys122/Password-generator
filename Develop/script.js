@@ -1,6 +1,6 @@
 // Assignment code here
 //initial question
-window.prompt("How many characters would you like in your password?");
+var pwlength = window.prompt("How many characters would you like in your password?");
 
 function pwlength (){
   
@@ -10,18 +10,30 @@ pwlength()
 //var pwlength ()
 
 //case questions
-window.prompt("Do you need Upper Case letters?");
-//upperCase()
+var upperCase = window.prompt("Do you need Upper Case letters?");
+function upperCase () {
 
-window.prompt("Do you need lower case letters?");
-//lowerCase()
+}
+upperCase ()
+
+var lowerCase = window.prompt("Do you need lower case letters?");
+function lowerCae (){
+
+}
+lowerCase()
 //Numbers question
 
-window.prompt("Inlcude a number?");
-//Number()
+var Numbers = window.prompt("Inlcude a number?");
+function Numbers () {
+
+}
+Numbers()
 //Special characters
-window.prompt("Any special characters ex. #$*@?");
-//Specials()
+var Specials = window.prompt("Any special characters ex. #$*@?");
+function Specials () {
+  
+}
+Specials()
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
