@@ -1,40 +1,67 @@
 // Assignment code here
 //initial question
-var pwlength = window.prompt("How many characters would you like in your password?");
+// pwlength = window.prompt("How many characters would you like in your password?");
 
-function pwlength (){
-  
-}
-pwlength()
+var pwlength = window.prompt("How many characters would you like in your password?");
+ //window.alert("you chose " + pwlength)
+ 
+
+//pwlength()
 //based on answer return a specific number
 //var pwlength ()
 
 //case questions
-var upperCase = window.prompt("Do you need Upper Case letters?");
-function upperCase () {
-
+var upperCaseQ = function() {
+var upperCaseQ = window.prompt("Do you need Upper Case letters?");
+if (upperCase === "No")  {
+  window.alert("you have chosen no");
+  lowerCaseQ()
 }
-upperCase ()
-
-var lowerCase = window.prompt("Do you need lower case letters?");
-function lowerCae (){
-
-}
-lowerCase()
-//Numbers question
-
-var Numbers = window.prompt("Inlcude a number?");
-function Numbers () {
-
-}
-Numbers()
-//Special characters
-var Specials = window.prompt("Any special characters ex. #$*@?");
-function Specials () {
+//if no move to next or skip
+else {
+  var upperCase = Math.floor(Math.random() * 1, 27);
   
 }
-Specials()
+};
+upperCaseQ()
 
+var lowerCaseQ = function() {
+var lowerCaseQ = window.prompt("Do you need lower case letters?");
+if (lowerCase === "No") {
+  NumbersQ()
+}
+else {
+  var lowerCase = Math.floor(Math.random() * 1, 27);
+  //return value;
+};
+}
+lowerCaseQ()
+//Numbers question
+
+var NumbersQ = function() {
+  var NumbersQ = window.prompt("Inlcude a number?");
+if (NumbersQ === "No") {
+  SpecialsQ()
+}
+else {
+  var Numbers = Math.floor(Math.random())
+}
+}
+function NumbersQ() {
+
+}
+NumbersQ()
+//Special characters
+var Specials = window.prompt("Any special characters ex. #$*@?");
+function SpecialsQ() {
+
+}
+SpecialsQ()
+//randomize above and add results also in a random order
+
+var passwordGen =([upperCase, lowerCase, Numbers, Specials]); {
+  console.log(passwordGen);
+}
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
 
@@ -49,3 +76,6 @@ function writePassword() {
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
+//start generator 
+pwlength ()
+//use 
