@@ -53,5 +53,6 @@ Using JavaScript, I was able to implement the requirements and created a randoml
 
 I ran into multiple issues during this task and although not perfect, the basic ask is complete.  I leared to think more like a programmer and break down the ask into smaller pieces to bring a finished product.
 
-Please visit my page: 
+Please visit my page: https://christys122.github.io/Password-generator/
+
 

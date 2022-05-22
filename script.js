@@ -20,11 +20,12 @@ function compileArray(array) {
 
 //set criteria for password
 function buildPasswordArray(event) {
-  //event.preventDefault();
+ //   event.preventDefault();
 
-    passwordLength = window.prompt("How many characters in your password?"); 
+
+passwordLength = window.prompt("How many characters in your password?"); 
        if (passwordLength) {}
-         
+             
 //compile and string characters   
 
     var uselowercase = window.confirm("Do you need lower case letters?");
@@ -46,8 +47,8 @@ function buildPasswordArray(event) {
         compileArray(specialChar.split(""));
         }
 
-        console.log(passwordArray) 
-}
+     
+    }
 
 //random numbers by selected length 
 buildPasswordArray();
