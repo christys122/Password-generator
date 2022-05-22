@@ -57,7 +57,8 @@ function generatePassword(array) {
     for (var i = 0; i < passwordLength; i++) {
       newPassword.push(array[Math.floor(Math.random() * array.length)])  
     }
-console.log(newPassword)
+//console.log(newPassword)
+document.getElementById("password").innerHTML = (newPassword)
 }
 generatePassword(passwordArray);
 
