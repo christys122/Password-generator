@@ -48,7 +48,7 @@ each response must return in a random order and include a random character so i 
 answer = password
 
 see Screenshot below
-![Password Generator](/develop/screenshotPWGen.png)
+![Password Generator](/screenshotPWGen.jpg"password Generator")
 Using JavaScript, I was able to implement the requirements and created a randomly generated password with the prompted length, upper and lower cases, numbers and special characters.  
 
 I ran into multiple issues during this task and although not perfect, the basic ask is complete.  I leared to think more like a programmer and break down the ask into smaller pieces to bring a finished product.
